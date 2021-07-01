@@ -1,0 +1,66 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+$base-font-size: 18px;
+$max-width: 1200px;
+
+body {
+  font-size: $base-font-size;
+}
+
+h1 {
+  margin: 0 0 40px;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  margin: 60px 0 0;
+  font-size: 24px;
+}
+
+h4 {
+  margin: 15px 0 0;
+  font-size: 20px;
+}
+
+h5, h6 {
+  font-size: $base-font-size;
+}
+
+p {
+  margin: 0 0 5px;
+
+  a {
+    color: #d4c25c;
+  }
+}
+
+#header {
+  nav {
+    li {
+      font-size: $base-font-size;
+
+      a {
+        font-size: $base-font-size;
+      }
+    }
+  }
+}
+
+.wrapper {
+  max-width: $max-width;
+}
+
+section {
+  max-width: $max-width;
+}
+
+.paginator {
+  margin: 0 0 10px;
+}

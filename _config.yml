@@ -1,0 +1,11 @@
+title: Aldo's personal site
+description: >- # this means to ignore newlines until "baseurl:"
+  Aldo Paz, a programmer guy.
+baseurl: ""
+url: "https://aldoestebanpaz.github.io"
+github_username:  aldoestebanpaz
+show_downloads: false
+theme: jekyll-theme-midnight
+paginate: 5
+plugins:
+  - jekyll-feed
